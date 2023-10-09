@@ -19,6 +19,7 @@ function draw() {
             console.log("added end x and y:", endX, ",", endY);
         }
         clicks++;
+        console.log("clicks:", clicks)
     }
     if (clicks % 2 === 1) {
         line(startX, startY, mouseX, mouseY);

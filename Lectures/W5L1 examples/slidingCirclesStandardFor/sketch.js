@@ -1,8 +1,8 @@
-let xCoordinates = [20, 20, 20, 20];
-let speeds = [1, 2, 3, 4];
+let xCoordinates = [20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20];
+let speeds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 function setup() {
-    createCanvas(400, 250);
+    createCanvas(1300, 800);
 }
 
 function draw() {

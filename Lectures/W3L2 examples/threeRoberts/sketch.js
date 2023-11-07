@@ -11,6 +11,7 @@ function setup() {
     robot1Colour = color(random(255), random(255), random(255));
     robot2Colour = color(random(255), random(255), random(255));
     robot3Colour = color(random(255), random(255), random(255));
+    robot4Colour = color(random(255), random(255), random(255));
 }
 
 function draw() {
@@ -18,6 +19,7 @@ function draw() {
     robot(robot1X, robot1Y, robot1Colour);
     robot(robot2X, robot2Y, robot2Colour);
     robot(robot3X, robot3Y, robot3Colour);
+    robot(mouseX, mouseY, robot4Colour)
 }
 
 function robot(x, y, bodyColour) {
